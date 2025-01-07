@@ -10,15 +10,42 @@
 <body>
 
 <div class="quiz-container">
+    <nav style="display: none;">
+
+        <div id="navLeft">
+        <h3 id="home">Home</h3>
+        </div>
+        
+        <div id="navRight">
+             <div id="Timer"><p id="TimerCount">15</p></div>
+ 
+
+            
+            <div id="questCount">
+              <p id="CurrentQuestion">0</p>
+              <p id="Of">of</p>
+              <p id="TotalQuestion">5</p>
+            </div>
+            <div id="score">
+              <p id="scoreLbl">Score:</p>
+              <p id="scoreNum">0</p>
+            </div>
+
+        </div>
+
+  </nav>
+
+
+
+
     <div id="game">
       <h1>Quiz Game</h1>
       <button id="startBtn">start</button>
     
-  <div id="start-game"style="display: none;"
-  >
+  <div id="start-game"style="display: none;"n >
         <h3 id="question" >Question</h3>
-
-        <div class="allOptions">
+<!--         <img id="sport-image" src="" alt="Sport Image">
+ -->        <div class="allOptions">
           <div id="options_0102">
             <button class="options"></button>
             <button class="options"></button>
@@ -28,10 +55,17 @@
             <button class="options"></button>
           </div>
         </div>
-        <p id="score">Score: 0</p>
-        <button id="nextBtn">Next</button>
+<!--         <button id="nextBtn">Next</button>-->        
+         <div id="nextBtnContainer">
+          <button id="nextBtn">Next</button>
+        </div>
       </div>
   </div>
+
+
+
+
+  
 </div>
 
 
