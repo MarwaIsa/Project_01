@@ -194,6 +194,7 @@ startBtnEl.addEventListener("click",()=>{
           startBtnEl.style.display = "block";
           startBtnEl.textContent='Play again';
           startBtnEl.style.width="270px";
+          
 
       } else {
           h1El.style.display = "block";
